@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "next dev",
+    "write-ca": "node scripts/write_ca.js",
     "build": "next build",
     "start": "next start",
     "prisma:generate": "prisma generate",
@@ -21,6 +22,7 @@
   "private": true,
   "dependencies": {
     "@prisma/client": "^6.14.0",
-    "next": "^15.4.6"
+    "next": "^15.4.6",
+    "pg": "^8.16.3"
   }
 }
