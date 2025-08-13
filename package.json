@@ -1,0 +1,24 @@
+{
+  "name": "TestAssignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node --transpile-only scripts/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@types/react": "19.1.10",
+    "prisma": "^6.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "^6.14.0",
+    "next": "^15.4.6"
+  }
+}
