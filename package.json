@@ -7,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "prisma:generate": "prisma generate",
+    "vercel-build": "npm run prisma:generate && npm run build",
     "seed": "ts-node --transpile-only scripts/seed.ts"
   },
   "devDependencies": {
